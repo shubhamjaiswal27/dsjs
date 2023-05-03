@@ -1,0 +1,24 @@
+{
+  "name": "dsjs",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms in Javascript",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Shubham Jaiswal"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --require @babel/register"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
